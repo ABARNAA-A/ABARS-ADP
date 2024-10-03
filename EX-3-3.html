@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>List and Tables</title>
+    </head>
+    <style>
+    table{
+        border-collapse:calc();
+        width:100%
+    }
+    td,th{
+        border:1px solid #dddddd;
+        text-align:left;
+    th,td{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+    }
+    tr:nth-child(even){
+        background-color: #a1e8f1;
+    }
+    </style>
+    <body>
+    <p>
+    <h2><b>Company</b></h2>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Head office</th>
+            <th>CEO</th>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>California</td>
+            <td>Sundar Pichai</td>
+        </tr>
+        <tr>
+            <td>Linkedin</td>
+            <td>California</td>
+            <td>Ryan Roslansky</td>
+        </tr>
+        <tr>
+            <td>Swiggy</td>
+            <td>Banglore</td>
+            <td>Sriharsha Majety</td>
+        </tr>
+        <tr>
+            <td>Telegram</td>
+            <td>Dubai</td>
+            <td>Pavel Valeryevich Durvo</td>
+        </tr>
+    </table>
+    <h2>ROWSPAN</h2>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Head office</th>
+            <th>CEO</th>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td rowspan="2">California</td>
+            <td>Sundar Pichai</td>
+        </tr>
+        <tr>
+            <td>Linkedin</td>
+            <td>Ryan Roslansky</td>
+        </tr>
+        <tr>
+            <td>Swiggy</td>
+            <td>Banglore</td>
+            <td>Sriharsha Majety</td>
+        </tr>
+        <tr>
+            <td>Telegram</td>
+            <td>Dubai</td>
+            <td>Pavel Valeryevich Durvo</td>
+        </tr>
+    </table>
+    <h2>COLSPAN</h2>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Head office</th>
+            <th>CEO</th>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>California</td>
+            <td>Sundar Pichai</td>
+        </tr>
+        <tr>
+            <td>Linkedin</td>
+            <td>California</td>
+            <td>Ryan Roslansky</td>
+        </tr>
+        <tr>
+            <td>Swiggy</td>
+            <td colspan="2">Banglore</td>
+        </tr>
+        <tr>
+            <td>Telegram</td>
+            <td>Dubai</td>
+            <td>Pavel Valeryevich Durvo</td>
+        </tr>
+    </table>
+    <h2>List</h2>
+    Twitter
+    <ul>
+        <li>Place:California</li>
+        <li>CEO:Linda Yaccarino</li>
+    </ul>
+    INSTAGRAM
+    <ol>
+        <li>Place:California</li>
+        <li>CEO:Adom</li>
+    </ol>
+    Twitter
+    <ul  style="list-style-type:lower-roman;">
+        <li>Place:California</li>
+        <li>CEO:Linda Yaccarino</li>
+    </ul style="list-style-type:calc();">
+    INSTAGRAM
+    <ol>
+        <li>Place:California</li>
+        <li>CEO:Adom</li>
+    </ol>
+    </p>
+</body>
+</html>
+        
